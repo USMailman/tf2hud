@@ -517,7 +517,7 @@
 			"tall"				"65"
 			"tall_minmode"			"42"			
 			"visible"			"0"
-			"enabled"			"1"
+			"enabled"			"0"
 			
 			"if_multiple_trains"
 			{
@@ -538,8 +538,8 @@
 				"wide_minmode"			"35"				
 				"tall"				"65"
 				"tall_minmode"			"42"
-				"visible"			"1"
-				"enabled"			"1"
+				"visible"			"0"
+				"enabled"			"0"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_teardrop"
 				"iconColor"			"255 255 255 255"

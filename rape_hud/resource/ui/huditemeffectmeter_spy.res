@@ -1,17 +1,19 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"380"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"r162"	[$WIN32]
+		"ypos"			"r92"	[$WIN32]
+		"xpos_minmode"	"r70"	[$WIN32]
+		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"Pink"
+		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	
@@ -49,7 +51,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KillStreak"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -60,7 +62,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					""
+		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
@@ -83,10 +85,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos_minmode"			"18"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"44"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -96,7 +97,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
-		"font_minmode"			"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 	}
 }

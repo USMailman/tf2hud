@@ -3028,29 +3028,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		Willamette Rising12
-		{
-			"1"
-			{
-				"name"		"Willamette Rising"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		Willamette Rising50
-		{
-		"1"
-			{
-				"name"		"Willamette Rising"
-				"tall"		"50"
-				"antialias" "1"
-			}
-		}
 	}
-	
-	/////// cutom font here 
-	
-	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5861,9 +5839,5 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"8"
-		{ "font" "resource/fonts/Willamette-Rising.ttf"
-			"name" "Willamette Rising"
-			}
 	}
 }
