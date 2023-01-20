@@ -113,7 +113,7 @@
 		"wide"			"109"
 		"tall"			"50"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
