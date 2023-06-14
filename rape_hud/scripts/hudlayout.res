@@ -200,7 +200,7 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"	"CHealthAccountPanel"
-		"xpos"	"410"
+		"xpos"	"230"
 		"xpos_minmode"	"61"
 		"ypos"	"r450"
 		"ypos_minmode"	"r134"
@@ -449,7 +449,7 @@
 		"ypos"	"35" [$X360]
 		"wide"	"628"
 		"tall"	"468"
-		"MaxDeathNotices"	"5"
+		"MaxDeathNotices"	"100"
 		"IconScale"	"0.35"
 		"LineHeight"	"16"
 		"LineSpacing"	"4"

@@ -388,6 +388,7 @@
 		"zpos"						"3"
 		"wide"						"10"
 		"tall"						"10"
+		"tall"						"10"
 		"visible"					"1"
 		"enabled"					"1"
 	}
