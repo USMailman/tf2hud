@@ -6,7 +6,7 @@
 		"fieldName"				"HudTournament"
 				
 		"xpos"					"c-125"
-		"ypos"					"400"
+		"ypos"					"25"
 		"wide"					"250"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
@@ -28,8 +28,8 @@
 
 		if_mvm
 		{
-			"xpos"					"c-400"
-			"ypos"					"300"
+			"xpos"					"c-250"
+			"ypos"					"0"
 			"wide"					"500"
 			"tall"					"480"
 
@@ -736,7 +736,7 @@
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
 		"fgcolor"		"TanLight"
-		"xpos"			"84"
+		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"250"

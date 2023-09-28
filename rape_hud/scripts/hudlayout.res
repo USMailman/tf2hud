@@ -30,7 +30,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"	"0"
-		"ypos"	"-100"
+		"ypos"	"-5"
 		"wide"	"f0"
 		"tall"	"480"
 	}

@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
+		"xpos"				"-190"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
@@ -269,25 +269,25 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"9999999999"
-		"ypos"			"99999999999"	[$WIN32]
+		"xpos"			"999"
+		"ypos"			"999"	[$WIN32]
 		"ypos"			"r158"	[$X360]
-		"zpos"			"999999"
-		"wide"			"9999999"
-		"tall"			"99999999"
+		"zpos"			"999"
+		"wide"			"999"
+		"tall"			"999"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_carried_red"
+		"image"			""
 		"scaleImage"	"0"
 		
 		"if_hybrid"
 		{
-			"ypos"		"r142"
+			"ypos"		"r999999"
 		}
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"visible"	"99999999"
 		}
 	}		
 	
@@ -305,7 +305,7 @@
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 		"font"			""
 		"fgcolor"		"TanLight"
 		
@@ -454,7 +454,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"99999999"
 		}
 	}
 
