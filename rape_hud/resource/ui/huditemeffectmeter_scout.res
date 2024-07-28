@@ -3,14 +3,11 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"x_offset"		"40"
 		"xpos"			"r174"	[$WIN32]
 		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
-		"x_offset_minmode"		"0"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -30,9 +27,9 @@
 		"tall"			"50"
 		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
@@ -48,20 +45,20 @@
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
-		"autoResize"			"1"
+		"autoResize"			"0"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"1"
+		"visible"				"0"
+		"visible_minmode"		"0"
+		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"textAlignment_minmode"			"west"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
+		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -79,8 +76,8 @@
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"

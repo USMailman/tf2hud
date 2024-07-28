@@ -5,13 +5,13 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"70"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"9999999"	[$WIN32]
+		"ypos"			"99992"	[$WIN32]
 		"xpos_minmode"	"68"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"Pink"
+		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	
@@ -24,7 +24,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
@@ -53,14 +53,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
+		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					""
+		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
@@ -96,7 +96,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
+		"font"					"HudFontMedium"
 		"font_minmode"			"HudFontSmall"
 	}
 }

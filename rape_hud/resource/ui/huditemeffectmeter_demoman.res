@@ -3,12 +3,10 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -28,9 +26,9 @@
 		"tall"			"44"
 		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
@@ -46,16 +44,16 @@
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
-		"autoResize"			"1"
+		"autoResize"			"0"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
+		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -65,11 +63,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"wide_minmode"			"50"
+		"wide"					"40""
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -84,14 +79,14 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"5"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"xpos"					"9999"
+		"ypos"					"9999"
+		"zpos"					"9999"
+		"wide"					"0"
+		"tall"					"0"	
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"

@@ -76,9 +76,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontSmall"
 		"font_minmode"	"TFFontLarge"
-		"xpos"			"34"
+		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"5"
 		"ypos_minmode"	"5"
@@ -98,9 +98,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"TFFontMedium"
+		"font"			"FontStoreOriginalPrice"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"34"
+		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
@@ -128,8 +128,8 @@
 		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"	
+		"visible"		"0"
+		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
@@ -141,10 +141,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"21"
-		"ypos_minmode"	"19"
+		"xpos"			"40"
+		"xpos_minmode"	"38"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -158,10 +158,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"34"
+		"xpos"			"10"
 		"xpos_minmode"	"30"
-		"ypos"			"21"
-		"ypos_minmode"	"19"
+		"ypos"			"20"
+		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -251,4 +251,21 @@
 			"brighttext"		"0"
 		}	
 	}
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"6"
+		"xpos_minmode"	"6"
+		"ypos"			"6"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"99"
+		"wide"			"11"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}	
 }

@@ -8,42 +8,44 @@
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"84"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
-		"textAlignment"	"center"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+	
 	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"4"
-		"ypos"			"0"
+		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"66"
-		"tall"			"84"
+		"wide"			"98"
+		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 255"
 	}
+	
 	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"DefaultSmall"
-		"xpos"			"6"
-		"ypos"			"20"
+		"font"			"Default"
+		"xpos"			"10"
+		"ypos"			"48"
 		"zpos"			"2"
-		"wide"			"56"
+		"wide"			"80"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -53,8 +55,9 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}	
+
 	"UnavailableLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -74,6 +77,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}		
+			
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -89,6 +93,7 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"0 255 0 128"
 	}
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -108,6 +113,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
 }

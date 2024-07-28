@@ -11,11 +11,11 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"22"
+		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"22"
+		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
 		
@@ -235,12 +235,12 @@
 		
 		if_mvm
 		{
+			"xpos"					"c-250"
+			"ypos"					"6"
 			"wide"					"500"
 			"tall"					"180"
 	
-			"team1_player_delta_x"			"53"
-			"team1_player_base_offset_x"	"-75"
-			"team1_player_base_y"			"0"
+			"team1_player_delta_x"			"52"
 		}		
 	}
 
@@ -249,7 +249,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"0"
+		"tall"			"33"
 	}
 	"BottomBar"
 	{
@@ -295,7 +295,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"c-20"
+		"ypos"			"16"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"

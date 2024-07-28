@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
-		"tall"			"40"
+		"tall"			"480"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -19,10 +19,11 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
-		"ypos"			"5000"
-		"tall"			"00"	[$WIN32]
-		"tall_minmode"			"0"	[$WIN32]	
-		"wide"			"0"
+		"ypos"			"0"
+		"tall"			"84"	[$WIN32]
+		"tall_minmode"			"20"	[$WIN32]
+		"tall"			"104"	[$X360]		
+		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -34,10 +35,12 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]	
+		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r20"
 		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"			
+		"tall_minmode"	"0"		
+		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -49,10 +52,12 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"5000"	[$WIN32]	
+		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
 		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
+		"tall"			"90"	[$X360]		
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -291,10 +296,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"999999999"
-		"xpos_hidef"	"99999"
-		"xpos_lodef"	"99999"
-		"ypos"			"999999"
+		"xpos"			"15"
+		"xpos_hidef"	"60"
+		"xpos_lodef"	"45"
+		"ypos"			"r67"
 		"ypos_lodef"		"28"
 		"ypos_hidef"		"35"
 		"wide"			"145"
@@ -305,7 +310,7 @@
 		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"

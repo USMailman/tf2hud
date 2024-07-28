@@ -6,13 +6,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"ypos_minmode"	"18"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"		
+		"visible"		"0"
+		"enabled"		"0"		
 	}
 	"PlayerStatusClassImage"
 	{
@@ -32,7 +32,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -52,7 +52,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"			
 	}	
@@ -71,10 +71,10 @@
 		"wide_minmode"	"27"
 		"tall"			"55"
 		"tall_minmode"	"27"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}		
 	"PlayerStatusClassImageBG"
 	{
@@ -86,12 +86,12 @@
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
+		"zpos"			"0"		
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
@@ -103,18 +103,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"9999999"		[$WIN32]
-		"xpos_minmode"	"99999999999"		[$WIN32]
+		"xpos"			"-0"		[$WIN32]
+		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
+		"zpos"			"0"		
 		"wide"			"109"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
@@ -138,18 +138,18 @@
 		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		"render_texture"	"0"
 		"fov"			"12"
-		"allow_rot"		"1"
+		"allow_rot"		"0"
 
-		"disable_speak_event"	"1"
+		"disable_speak_event"	"0"
 				
 		"model"
 		{
-			"force_pos"	"1"
+			"force_pos"	"0"
 
 			"angles_x" "0"
 			"angles_y" "172"
@@ -160,7 +160,7 @@
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight" "0"
 		
 			"modelname"		""
 		}
@@ -315,16 +315,16 @@
 			"tall_minmode"			"f0"
 			"autoResize"			"0"
 			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
+			"visible"				"0"
+			"enabled"				"0"
 			"image"					"../hud/color_panel_brown"
-			"scaleImage"			"1"
+			"scaleImage"			"0"
 			"teambg_1"				"../hud/color_panel_brown"
 			"teambg_2"				"../hud/color_panel_red"
 			"teambg_2_lodef"		"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
 			"teambg_3_lodef"		"../hud/color_panel_blu"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 		
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -343,7 +343,7 @@
 			"xpos_minmode"		"5"
 			"ypos"				"3"
 			"ypos_minmode"		"2"
-			"zpos"				"1"
+			"zpos"				"0"
 			"wide"				"200"
 			"wide_minmode"		"f0"
 			"tall"	 			"f0"
@@ -355,8 +355,8 @@
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
+			"proportionaltoparent"	"0"
+			"auto_wide_tocontents"	"0"
 			"labelText"			"%carrying%"
 		}
 
@@ -377,13 +377,13 @@
 			"tall_minmode"		"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
+			"proportionaltoparent"	"0"
+			"auto_wide_tocontents"	"0"
 			"fgcolor_override"	"Black"
 			"labelText"			"%carrying%"
 		}
@@ -405,13 +405,13 @@
 			"tall_minmode"		"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
+			"proportionaltoparent"	"0"
+			"auto_wide_tocontents"	"0"
 		}
 	}
 }

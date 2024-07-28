@@ -21,9 +21,9 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"fov"			"70"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		
 		"model"
 		{
@@ -35,13 +35,13 @@
 			"origin_x"	"150"
 			"origin_y"	"0"
 			"origin_z"	"62"
-			"spotlight"	"1"
+			"spotlight"	"0"
 
 			"animation"
 			{
 				"name"			"ref"
 				"sequence"		"ref"
-				"default"		"1"
+				"default"		"0"
 			}
 
 			"animation"
@@ -64,18 +64,18 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"cs-0.0"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"fgcolor"		"TanLight"
 
 		if_readymode
@@ -98,12 +98,12 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 
 	
 		if_readymode
@@ -122,8 +122,8 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"visible"		"0"
+		"proportionaltoparent"	"0"
 
 		"ParticleEffects"
 		{
@@ -153,9 +153,9 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"fov"			"70"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		
 		"model"
 		{
@@ -172,7 +172,7 @@
 			{
 				"name"			"ref"
 				"sequence"		"ref"
-				"default"		"1"
+				"default"		"0"
 			}
 
 			"animation"
@@ -200,11 +200,11 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"1"		
+		"zpos"			"0"		
 		"wide"			"300"
 		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}	
 
 	"BGFrame"
@@ -218,7 +218,7 @@
 		"tall"				"28"
 		"visible"			"0"
 
-		"proportionaltoaparent"	"1"
+		"proportionaltoaparent"	"0"
 		"border"			"TFFatLineBorder"
 
 		if_match
@@ -239,14 +239,14 @@
 		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"0"
-		"centerwrap"	"1"
+		"centerwrap"	"0"
 		"alpha"			"0"
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"fgcolor"		"TanLight"
 	}
 
@@ -262,14 +262,14 @@
 		"zpos"			"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"0"
-		"centerwrap"	"1"
+		"centerwrap"	"0"
 		"alpha"			"0"
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"fgcolor"		"Black"
 	}
 
@@ -289,14 +289,14 @@
 		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"delta_item_x"			"22"	[$WIN32]
 		"delta_item_x"			"115"	[$X360]
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
+		"delta_lifetime"		"0.5"
 		"delta_item_font"		"HudFontMedium"
 
 		if_match
@@ -309,7 +309,7 @@
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
+			"delta_lifetime"		"0.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
@@ -334,14 +334,14 @@
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
 			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
@@ -362,14 +362,14 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 
 		"max_size"	"19"
 
 		"6v6_gap"	"4"
-		"12v12_gap"	"1"
+		"12v12_gap"	"0"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
@@ -384,7 +384,7 @@
 			"visible"		"0"
 			"wide"			"25"
 			"tall"			"50"
-			"zpos"			"1"
+			"zpos"			"0"
 
 			"color_portrait_bg_red"	"119 62 61 255"
 			"color_portrait_bg_blue"	"62 81 101 255"
@@ -421,11 +421,11 @@
 				"zpos"			"3"
 				"wide"			"19"
 				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
+				"scaleImage"	"0"	
+				"proportionaltoparent"	"0"
 			}
 			"classimagebg"
 			{
@@ -436,10 +436,10 @@
 				"zpos"			"2"
 				"wide"			"f0"
 				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 			}
 			"healthbar"
 			{	
@@ -453,13 +453,13 @@
 				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
+				"visible"				"0"
+				"enabled"				"0"
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "80 80 80 255"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 			}
 			"overhealbar"
 			{	
@@ -473,14 +473,14 @@
 				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
+				"visible"				"0"
+				"enabled"				"0"
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
 				"fgcolor_override"	   "255 255 255 160"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 			}
 			"HealthIcon"
 			{
@@ -492,7 +492,7 @@
 				"wide"				"32"
 				"tall"				"32"
 				"visible"			"0"
-				"enabled"			"1"	
+				"enabled"			"0"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -505,13 +505,13 @@
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
-				"zpos"			"-1"
+				"zpos"			"-0"
 				"wide"			"16"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/tournament_panel_brown"
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
@@ -530,9 +530,9 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"hud/checkmark"
-				"scaleImage"	"1"
+				"scaleImage"	"0"
 			}
 			"respawntime"
 			{
@@ -546,10 +546,10 @@
 				"tall"			"19"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
+				"proportionaltoparent"	"0"
 			}
 			"chargeamount"
 			{
@@ -595,24 +595,24 @@
 				"wide"			"f0"
 				"tall"			"24"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/comp_player_status"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"scaleImage"	"0"
+				"proportionaltoparent"	"0"	
 			}
 			"SkullPanel"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
 				"xpos"			"cs-0.5"
-				"zpos"			"1"
+				"zpos"			"0"
 				"wide"			"o1.2"
 				"tall"			"p0.15"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/comp_player_status_skull"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"scaleImage"	"0"
+				"proportionaltoparent"	"0"	
 			}
 		}
 	}
@@ -627,7 +627,7 @@
 		"wide"			"150"
 		"tall"			"260"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 
 		if_large
 		{
@@ -646,8 +646,8 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
 		"BlueTeamImage"
@@ -659,10 +659,10 @@
 			"zpos"			"5"
 			"wide"			"56"
 			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/team_blue"
-			"scaleImage"		"1"
+			"scaleImage"		"0"
 		}
 		"BlueTeamLabel"
 		{
@@ -678,9 +678,9 @@
 			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"centerwrap"	"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"centerwrap"	"0"
 		}
 		"BlueLeaderAvatar"
 		{
@@ -691,10 +691,10 @@
 			"zpos"			"5"	
 			"wide"			"35"
 			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"0"	
 			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -706,7 +706,7 @@
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -716,17 +716,17 @@
 			"fieldName"		"BluePlayerList"
 			"xpos"			"6"
 			"ypos"			"38"
-			"zpos"			"1"
+			"zpos"			"0"
 			"wide"			"136"
 			"tall"			"205"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"
-			//"show_columns"	"1"
+			//"show_columns"	"0"
 
 			if_large
 			{
@@ -744,8 +744,8 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderClearBG"
 
 			if_large
@@ -765,7 +765,7 @@
 		"wide"			"150"
 		"tall"			"260"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 
 		if_large
 		{
@@ -784,8 +784,8 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
 		"RedTeamImage"
@@ -797,10 +797,10 @@
 			"zpos"			"5"
 			"wide"			"70"
 			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/team_Red"
-			"scaleImage"		"1"
+			"scaleImage"		"0"
 		}
 		"RedTeamLabel"
 		{
@@ -816,9 +816,9 @@
 			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"centerwrap"	"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"centerwrap"	"0"
 		}
 		"RedLeaderAvatar"
 		{
@@ -829,10 +829,10 @@
 			"zpos"			"5"
 			"wide"			"35"
 			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"0"	
 			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -844,7 +844,7 @@
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -854,17 +854,17 @@
 			"fieldName"		"RedPlayerList"
 			"xpos"			"6"
 			"ypos"			"38"
-			"zpos"			"1"
+			"zpos"			"0"
 			"wide"			"136"
 			"tall"			"205"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"
-			//"show_columns"	"1"
+			//"show_columns"	"0"
 
 			if_large
 			{
@@ -882,8 +882,8 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderClearBG"
 
 			if_large

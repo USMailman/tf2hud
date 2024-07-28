@@ -10,8 +10,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 	}
 	
@@ -45,15 +45,15 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"select 12"
-		"Default"			"1"
+		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_random_inactive"
 		"image_armed"		"class_sel_sm_random_inactive"
@@ -73,8 +73,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -86,10 +86,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_random_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 		
@@ -107,10 +107,10 @@
 		"wide"			"90"
 		"tall"			"12"
 		"tall_lodef"			"22"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
 		"textAlignment"	"left"
@@ -134,16 +134,16 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"1"	[$WIN32]
+		"labelText"			"0"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
-		"Command"			"select 1"
+		"Command"			"select 0"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_scout_inactive"
 		"image_armed"		"class_sel_sm_scout_inactive"
@@ -164,8 +164,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -177,10 +177,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_scout_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	"soldier"
@@ -198,8 +198,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"2"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -207,7 +207,7 @@
 		"Command"			"select 3"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_soldier_inactive"
 		"image_armed"		"class_sel_sm_soldier_inactive"
@@ -228,8 +228,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -241,10 +241,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_soldier_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	"pyro"
@@ -262,8 +262,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"3"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -271,7 +271,7 @@
 		"Command"			"select 7"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_pyro_inactive"
 		"image_armed"		"class_sel_sm_pyro_inactive"
@@ -291,8 +291,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -304,10 +304,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_pyro_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	
@@ -325,10 +325,10 @@
 		"wide"			"90"
 		"tall"			"12"
 		"tall_lodef"			"22"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
 		"textAlignment"	"left"
@@ -351,8 +351,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"4"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -360,7 +360,7 @@
 		"Command"			"select 4"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_demo_inactive"
 		"image_armed"		"class_sel_sm_demo_inactive"
@@ -380,8 +380,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -393,10 +393,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_demo_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}	
 	"heavyweapons"
@@ -413,8 +413,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"5"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -422,7 +422,7 @@
 		"Command"			"select 6"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_heavy_inactive"
 		"image_armed"		"class_sel_sm_heavy_inactive"
@@ -442,8 +442,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -455,10 +455,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_heavy_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	"engineer"
@@ -474,8 +474,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"6"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -483,7 +483,7 @@
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_engineer_inactive"
 		"image_armed"		"class_sel_sm_engineer_inactive"
@@ -503,8 +503,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -516,10 +516,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_engineer_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	
@@ -537,10 +537,10 @@
 		"wide"			"90"
 		"tall"			"12"
 		"tall_lodef"			"22"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
 		"textAlignment"	"left"
@@ -564,8 +564,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"7"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -573,7 +573,7 @@
 		"Command"			"select 5"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_medic_inactive"
 		"image_armed"		"class_sel_sm_medic_inactive"
@@ -593,8 +593,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -606,10 +606,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_medic_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	"sniper"
@@ -627,8 +627,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"8"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -636,7 +636,7 @@
 		"Command"			"select 2"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_sniper_inactive"
 		"image_armed"		"class_sel_sm_sniper_inactive"
@@ -656,8 +656,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -669,10 +669,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_sniper_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}
 	"spy"
@@ -690,8 +690,8 @@
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"9"	[$WIN32]
 		"labelText"			""		[$X360]
@@ -699,7 +699,7 @@
 		"Command"			"select 8"
 		"Default"			"0"
 		"font"				"MenuKeys"
-		"scaleImage"		"1"
+		"scaleImage"		"0"
 		
 		"image_default"		"class_sel_sm_spy_inactive"
 		"image_armed"		"class_sel_sm_spy_inactive"
@@ -719,8 +719,8 @@
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
+		"stayselectedonclick"	"0"
+		"selectonhover"			"0"
 		"keyboardinputenabled"	"0"
 		
 		"SubImage"
@@ -732,10 +732,10 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_spy_inactive"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}				
 	}	
 
@@ -750,8 +750,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Cancel"
 		"textAlignment"	"center"
@@ -771,8 +771,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
@@ -792,7 +792,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
@@ -815,9 +815,9 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_lodef"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"MenuMainTitle"
@@ -835,8 +835,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"16"
 		
 		"model"
@@ -868,14 +868,14 @@
 		"wide"			"600"
 		"tall"			"50"
 		"tall_lodef"	"30"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
-		"wrap"			"1"
+		"wrap"			"0"
 		"font"			"HudFontMediumSmallSecondary"
 		"font_lodef"	"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
@@ -897,11 +897,11 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"tileImage"		"0"
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -959,9 +959,9 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"localPlayerBG"
@@ -976,9 +976,9 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_clear"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
 			
@@ -999,9 +999,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}							
 	
 	"countImage1" [$WIN32]
@@ -1014,9 +1014,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage2" [$WIN32]
@@ -1029,9 +1029,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage3" [$WIN32]
@@ -1044,9 +1044,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage4" [$WIN32]
@@ -1059,9 +1059,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage5" [$WIN32]
@@ -1074,9 +1074,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage6" [$WIN32]
@@ -1089,9 +1089,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage7" [$WIN32]
@@ -1104,9 +1104,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage8" [$WIN32]
@@ -1119,9 +1119,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage9" [$WIN32]
@@ -1134,9 +1134,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"countImage10" [$WIN32]
@@ -1149,9 +1149,9 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"CountLabel" [$WIN32]
@@ -1163,10 +1163,10 @@
 		"zpos"			"10"
 		"wide"			"150"
 		"tall"			"18"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
@@ -1183,10 +1183,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
@@ -1203,10 +1203,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
@@ -1223,10 +1223,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
@@ -1243,10 +1243,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
@@ -1263,10 +1263,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
@@ -1283,10 +1283,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
@@ -1303,10 +1303,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
@@ -1323,10 +1323,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
@@ -1343,10 +1343,10 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"12"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
@@ -1364,9 +1364,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageSolider"
@@ -1379,9 +1379,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImagePyro" 
@@ -1394,9 +1394,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageDemoman" 
@@ -1409,9 +1409,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageHeavy"
@@ -1424,9 +1424,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageEngineer"
@@ -1439,9 +1439,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageMedic"
@@ -1454,9 +1454,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageSniper"
@@ -1469,9 +1469,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MvMUpgradeImageSpy"
@@ -1484,9 +1484,9 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 
 	"StartExplanation"
@@ -1503,7 +1503,7 @@
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
-		"force_close"	"1"
+		"force_close"	"0"
 		"end_x"			"c-170"
 		"end_y"			"115"
 		"end_wide"		"300"
@@ -1525,9 +1525,9 @@
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"wrap"			"0"
 			"fgcolor_override" "46 43 42 255"
 		}
 		
@@ -1544,9 +1544,9 @@
 			"tall"			"170"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"wrap"			"0"
 			"fgcolor_override" "46 43 42 255"
 		}
 		
@@ -1561,8 +1561,8 @@
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
@@ -1588,13 +1588,13 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"0"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"close_button"
-				"scaleImage"	"1"
+				"scaleImage"	"0"
 			}				
 		}
 	}
@@ -1612,20 +1612,20 @@
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		"render_texture"	"0"
 		"fov"			"25"
 		"allow_rot"		"0"
 
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
+		"paintbackground" "0"		
+		"paintbackgroundenabled" "0"
 		"bgcolor_override" "255 255 255 0"
 		
 		"model"
 		{
-			"force_pos"	"1"
+			"force_pos"	"0"
 
 			"angles_x" "0"
 			"angles_y" "180"
@@ -1636,52 +1636,10 @@
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight" "0"
 		
 			"modelname"		""
-			"vcd"		"class_select.vcd"		
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}	
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
+			"vcd"		"class_select.vcd"
 		}
 	}
 	
@@ -1696,8 +1654,8 @@
 		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 	}
 	
@@ -1717,8 +1675,8 @@
 		
 		"start_x"		"c-238"
 		"start_y"		"100"
-		"start_wide"	"1"
-		"start_tall"	"1"
+		"start_wide"	"0"
+		"start_tall"	"0"
 		"end_x"			"c-325"
 		"end_y"			"250"
 		"end_wide"		"275"
@@ -1739,9 +1697,9 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"wrap"			"0"
 			"fgcolor_override" "46 43 42 255"
 		}
 		
@@ -1758,9 +1716,9 @@
 			"tall"			"115"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
+			"visible"		"0"
+			"enabled"		"0"
+			"wrap"			"0"
 			"fgcolor_override" "46 43 42 255"
 		}
 		
@@ -1775,15 +1733,15 @@
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"default"		"1"
+			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
@@ -1802,13 +1760,13 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"0"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"close_button"
-				"scaleImage"	"1"
+				"scaleImage"	"0"
 			}				
 		}
 	}		

@@ -4,8 +4,8 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"r95"	[$WIN32]
 		"xpos_minmode"	"r77"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
@@ -18,14 +18,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"999999
+		"xpos"			"4"
 		"xpos_minmode"	"28"
-		"ypos"			"99999999999
+		"ypos"			"0"
 		"ypos_minmode"	"28"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"45"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode""0"
 		"enabled"		"0"
 		"scaleImage"	"0"	
@@ -40,17 +40,17 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"999999999999"
-		"ypos"			"-999999999999999999999999999999999999999999999999"
+		"xpos"			"2"
+		"ypos"			"-2"
 		"ypos_minmode"	"15"
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"visible_minmode""1"
+		"visible_minmode""0"
 		"enabled"		"0"
 		"image"			"../hud/pyro_jetpack_off2"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 
 	"ItemEffectMeterLabel"
@@ -64,16 +64,16 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"15"
-		"autoResize"	"1"
+		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_RocketPack_Disabled"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			""
+		"font"			"HudFontSmallest"
 		"fgcolor"		"178 0 0 255"
 	}
 
@@ -92,8 +92,8 @@
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -114,8 +114,8 @@
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"

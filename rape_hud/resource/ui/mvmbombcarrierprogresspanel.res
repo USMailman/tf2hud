@@ -8,8 +8,8 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"30"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/bomb_carrier_upgrade_base"
 	}
 	
@@ -21,7 +21,8 @@
 		"ypos"			"0"
 		"wide"			"20"
 		"tall"			"30"
-		"visible"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"FillImage"
 		{
@@ -31,8 +32,8 @@
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"30"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"image"			"../hud/bomb_carrier_upgrade_meter"
 		}
 	}
@@ -45,8 +46,8 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"30"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/bomb_carrier_upgrade_frame"
 	}
 	

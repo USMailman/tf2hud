@@ -8,63 +8,67 @@
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"84"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
-		"textAlignment"	"center"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+	
 	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"4"
-		"ypos"			"0"
+		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"66"
-		"tall"			"84"
+		"wide"			"98"
+		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 255"
 	}
+	
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"14"
-		"ypos"			"14"
+		"xpos"			"13"
+		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"70"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"0 200 0 255"
+		"iconColor"		"0 255 0 255"
 	}
+		
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"20"
+		"xpos"			"10"
 		"ypos"			"16"
 		"zpos"			"2"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"80"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"0 200 0 255"
+		"iconColor"		"0 255 0 255"
 	}
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -78,8 +82,9 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 200 0 255"
+		"iconColor"		"0 255 0 255"
 	}
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -99,6 +104,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
 }

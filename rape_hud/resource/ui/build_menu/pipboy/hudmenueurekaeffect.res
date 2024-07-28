@@ -14,15 +14,16 @@
 		"scaleImage"	"1"	
 		"paintbackground" "0"
 	}
+
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"0"
-		"ypos"			"9"
+		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"124"
-		"tall"			"84"
+		"wide"			"250"
+		"tall"			"180"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -39,13 +40,14 @@
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"40"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"pipboy_engineer"
 		"tileImage"		"0"
 		"tileVertically" "0"
 	}
+
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -55,32 +57,34 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 255 0 255"
 	}
+	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"DfVer14"
-		"xpos"			"8"
-		"ypos"			"7"
-		"zpos"			"3"
-		"wide"			"230"
-		"tall"			"20"
+		"font"			"HudFontGiant"
+		"xpos"			"68"			// align me to the left edge of the first selection
+		"ypos"			"8"
+		"zpos"			"2"
+		"wide"			"300"
+		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
-		"textAlignment"	"west"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
+	
 	"CancelLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -101,49 +105,52 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
+	
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_1"
-		"xpos"			"0"
-		"ypos"			"25"
-		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"96"
+		"xpos"			"25"
+		"ypos"			"47"
+		"zpos"			"10"
+		"wide"			"100"
+		"tall"			"124"
 		"visible"		"1"
 	}	
+	
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"available_target_2"
-		"xpos"			"62"
-		"ypos"			"25"
+		"xpos"			"125"
+		"ypos"			"47"
 		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"96"
+		"wide"			"100"
+		"tall"			"124"
 		"visible"		"1"
 	}	
+
 	"unavailable_target_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_1"
-		"xpos"			"0"
-		"ypos"			"25"
+		"xpos"			"25"
+		"ypos"			"47"
 		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"96"
+		"wide"			"100"
+		"tall"			"124"
 		"visible"		"0"
 	}	
+	
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"unavailable_target_2"
-		"xpos"			"62"
-		"ypos"			"25"
+		"xpos"			"125"
+		"ypos"			"47"
 		"zpos"			"1"
-		"wide"			"72"
-		"tall"			"96"
-		"visible"		"0"
+		"wide"			"100"
+		"tall"			"124"
 		"visible"		"0"
 	}	
 }

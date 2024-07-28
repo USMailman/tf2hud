@@ -26,9 +26,9 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -59,7 +59,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					""
+		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"

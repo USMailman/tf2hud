@@ -23,8 +23,8 @@
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 	
 	"BossStatusPanel"
@@ -36,12 +36,26 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		
 		"pin_to_sibling"               "WaveStatusPanel"
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"0"
+		"enabled" 			"0"
 	}
 	
 	"InWorldCurrencyPanel"
@@ -54,8 +68,8 @@
 		"tall"				"100"
 		"xpos_minmode"		"145"
 		"ypos_minmode"		"r12"
-		"visible" 			"1"
-		"enabled" 			"1"
+		"visible" 			"0"
+		"enabled" 			"0"
 	}
 
 	"WarningSwoop"
@@ -68,9 +82,9 @@
 		"wide"			"24"
 		"tall"			"220"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../sprites/obj_icons/warning_highlight"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 		"time"			"0.3"		
 	}
 	
@@ -92,7 +106,7 @@
 			"ypos"			"r35"
 			"wide"			"640"
 			"tall"			"480"
-			"visible"		"1"	
+			"visible"		"0"	
 		}
 		
 		"UpgradeLevel1" 
@@ -105,11 +119,11 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}
 		
 		"UpgradeLevel2" 
@@ -122,11 +136,11 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}
 		
 		"UpgradeLevel3" 
@@ -139,11 +153,11 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}
 
 		"UpgradeLevelBoss" 
@@ -157,10 +171,10 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_boss"
-			"scaleImage"	"1"
+			"scaleImage"	"0"
 		}
 	}
 	
@@ -174,7 +188,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
+		"enabled"			"0"			
 	}
 	
 	"VictoryPanelContainer"
@@ -219,8 +233,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/color_panel_red"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -241,8 +255,8 @@
 			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fgcolor"		"tanlight"		
 		}
 	}

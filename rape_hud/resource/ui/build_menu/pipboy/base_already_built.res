@@ -8,42 +8,45 @@
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"84"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"textAlignment"	"center"
+		"labelText_lodef"		"#TF_Object_Sentry_360"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+	
 	"ItemBackground"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"4"
-		"ypos"			"0"
+		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"66"
-		"tall"			"84"
+		"wide"			"98"
+		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 255"
 	}
+	
 	"CantBuildReason"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"DefaultSmall"
-		"xpos"			"0"
-		"ypos"			"30"
+		"font"			"Default"
+		"xpos"			"10"
+		"ypos"			"48"
 		"zpos"			"2"
-		"wide"			"72"
+		"wide"			"80"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -53,8 +56,9 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -68,8 +72,9 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"0 200 0 255"
+		"iconColor"		"0 255 0 255"
 	}
+	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -86,8 +91,9 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"	
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+	
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -105,8 +111,9 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"East"	
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -120,8 +127,9 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"0 200 0 255"
+		"iconColor"		"0 255 0 255"
 	}
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -141,6 +149,6 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 200 0 255"
+		"fgcolor"		"0 255 0 255"
 	}
 }

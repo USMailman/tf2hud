@@ -8,17 +8,19 @@
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"84"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
+		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -28,27 +30,29 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg"
 		"iconColor"		"ProgressOffWhite"
 	}
+	
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
-		"xpos"			"8"
-		"ypos"			"16"
+		"xpos"			"22"
+		"ypos"			"28"
 		"zpos"			"2"
-		"wide"			"48"
-		"tall"			"48"
+		"wide"			"56"
+		"tall"			"56"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"255 255 255 255"
 	}
+	
 	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -67,13 +71,14 @@
 		"labelText"		""
 		"textAlignment"	"East"	
 	}
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"38"
-		"ypos"			"47"
-		"zpos"			"3"
+		"xpos"			"41"
+		"ypos"			"99"
+		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
 		"visible"		"1"
@@ -82,16 +87,17 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
+	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
-		"xpos"			"38"
-		"ypos"			"47"
-		"zpos"			"4"
-		"wide"			"18"
+		"xpos"			"0"
+		"ypos"			"98"
+		"zpos"			"1"
+		"wide"			"100"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"

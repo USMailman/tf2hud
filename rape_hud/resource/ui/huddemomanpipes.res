@@ -10,7 +10,7 @@
 		"wide"			"76"
 		"wide_minmode"	"56"
 		"tall"			"38"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"

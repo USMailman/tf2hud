@@ -4,13 +4,13 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"2"
+		"ypos"			"-2"
 		"zpos"			"2"		
 		"wide"			"300"
 		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"visible"		"0"
+		"enabled"		"0"
+		"proportionaltoparent"	"0"
 
 		"starting_width"	"20"
 		"width_per_round"	"24"
@@ -24,7 +24,7 @@
 			"tall"				"6"
 			"zpos"				"7"
 			"image"				"../hud/comp_round_counter_dot_bg"
-			"scaleimage"		"1"
+			"scaleimage"		"0"
 		}
 
 		"RoundWinPanelRed_kv"
@@ -34,7 +34,7 @@
 			"tall"				"17"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_red"
-			"scaleimage"		"1"
+			"scaleimage"		"0"
 		}
 
 		"RoundWinPanelBlue_kv"
@@ -44,7 +44,7 @@
 			"tall"				"17"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_blue"
-			"scaleimage"		"1"
+			"scaleimage"		"0"
 		}
 	}	
 
@@ -59,9 +59,9 @@
 		"tall"			"35"
 
 		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 			
 		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
+		"scaleimage"			"0"
 	}
 }
